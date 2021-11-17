@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "tailwindcss -i ./src/main.css -o ./dist/style.css",
+    "dev": "live-server ./dist --no-css-inject & tailwindcss -i ./src/main.css -o ./dist/style.css --watch"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^2.2.19"
+  }
+}
