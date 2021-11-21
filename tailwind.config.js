@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'tall': '30rem'
+      }
+    },
   },
   variants: {
     extend: {},
