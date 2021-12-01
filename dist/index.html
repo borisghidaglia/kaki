@@ -85,6 +85,33 @@
             </div>
         </article>
     </section>
+
+    <section class="flex flex-col max-w-sm mx-auto">
+        <h2 class="flex justify-center p-10 text-2xl font-bold sm:text-3xl">Get in touch</h2>
+        <form>
+            <div class="grid grid-cols-1 px-0 text-base font-semibold text-white sm:px-8 sm:grid-cols-2 sm:text-lg gap-x-3 gap-y-4 text-opacity-60">
+                <div class="grid transition duration-300 focus-within:text-white">
+                    <label>First name</label>
+                    <input type="text" name="name" id="first name" required class="h-10 min-w-0 text-white transition duration-300 bg-black border-b border-opacity-50 focus:outline-none focus:border-opacity-100">
+                </div>
+                <div class="grid transition duration-300 focus-within:text-white">
+                    <label>Last name</label>
+                    <input type="text" name="email" id="last name" required class="h-10 min-w-0 text-white transition duration-300 bg-black border-b border-opacity-50 focus:outline-none focus:border-opacity-100">
+                </div>
+                <div class="grid transition duration-300 sm:col-span-2 focus-within:text-white">
+                    <label>Email</label>
+                    <input type="text" name="email" id="email" required class="h-10 min-w-0 text-white transition duration-300 bg-black border-b border-opacity-50 focus:outline-none focus:border-opacity-100">
+                </div>
+                <div class="grid transition duration-300 sm:col-span-2 focus-within:text-white">
+                    <textarea type="text" name="text" id="text" placeholder="Enter your text" required class="h-16 min-w-0 text-white bg-black focus:outline-none max-h-xs"></textarea>
+                </div>
+                <div class="grid py-2 mx-auto sm:col-span-2">
+                    <button class="px-6 py-1 font-bold text-black transition duration-200 bg-white rounded-full active:bg-gray-400 hover:bg-gray-300 focus:ring-2 focus:ring-offset-4 focus:ring-gray-400 focus:ring-offset-black">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
 </body>
 
 </html>
