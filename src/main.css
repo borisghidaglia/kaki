@@ -2,12 +2,59 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer base {
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 400;
+    src: url(./font/Ubuntu/Ubuntu-Regular.ttf);
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 400;
+    src: url(./font/Ubuntu/Ubuntu-Italic.ttf);
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 300;
+    src: url(./font/Ubuntu/Ubuntu-Light.ttf);
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 300;
+    src: url(./font/Ubuntu/Ubuntu-LightItalic.ttf);
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 500;
+    src: url(./font/Ubuntu/Ubuntu-Medium.ttf);
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 500;
+    src: url(./font/Ubuntu/Ubuntu-MediumItalic.ttf);
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 700;
+    src: url(./font/Ubuntu/Ubuntu-Bold.ttf);
+  }
+  @font-face {
+    font-family: Ubuntu;
+    font-weight: 700;
+    src: url(./font/Ubuntu/Ubuntu-BoldItalic.ttf);
+    font-style: italic;
+  }
+}
+
 @layer utilities {
-    @variants responsive {
-        .vertical-rl {
-            writing-mode: vertical-rl;
-            -webkit-writing-mode: vertical-rl;
-            -ms-writing-mode: vertical-rl;
-        }
+  @variants responsive {
+    .vertical-rl {
+      writing-mode: vertical-rl;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: vertical-rl;
     }
+  }
 }

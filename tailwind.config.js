@@ -1,17 +1,18 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './dist/index.html',
-  ],
+  mode: "jit",
+  purge: ["./dist/index.html"],
   darkMode: false,
   theme: {
     fontFamily: {
-      'exemple1': ['"Hammersmith One"', 'sans-serif'],
+      ...defaultTheme.fontFamily,
+      sans: ["Ubuntu", ...defaultTheme.fontFamily.sans],
     },
     extend: {},
-  },
-  variants: {
-    extend: {},
+    variants: {
+      extend: {},
+    },
   },
   plugins: [],
-}
+};
