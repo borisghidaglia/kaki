@@ -5,6 +5,9 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
+    fontFamily: {
+      'exemple1': ['"Hammersmith One"', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {
