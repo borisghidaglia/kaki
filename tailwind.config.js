@@ -9,6 +9,10 @@ module.exports = {
       ...defaultTheme.fontFamily,
       sans: ["Ubuntu", ...defaultTheme.fontFamily.sans],
     },
+    screens: {
+      'xs': '430px',
+      ...defaultTheme.screens,
+    },
     extend: {},
     variants: {
       extend: {},
