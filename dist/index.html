@@ -25,15 +25,16 @@
         </nav>
     </header>
     <section>
-        <div class="flex flex-col items-center justify-center min-h-screen -mt-10">
-            <video autoplay mute loop class="relative object-cover min-h-screen blur-md">
+        <div class="flex flex-col items-center justify-center overflow-hidden h-[95vh] sm:h-[69vh]">
+            <video autoplay mute loop class="relative object-cover w-auto h-screen blur-md">
                 <source src="img/para_short.mp4" type="video/mp4" />
             </video>
             <div class="absolute flex flex-col items-center justify-center filter drop-shadow-lg">
-                <h1 class="text-2xl font-bold tracking-wider text-center sm:max-w-lg sm:text-3xl md:text-4xl md:max-w-xl ">Blazing fast, one-tap checkout for the physical world.</h1>
-                <img src="img/earth.svg" alt="The company logo: a minimal earth icon." class="w-20 h-20 mt-8 mb-5">
-                <p class="text-xs tracking-wider text-gray-400 uppercase">Lightning fast experience</p>
+                <h1 class="max-w-md text-2xl font-bold tracking-wider text-center sm:max-w-lg sm:text-3xl md:text-4xl md:max-w-2xl">Blazing fast, one-tap checkout for the physical world.</h1>
+                <img src="img/earth.svg" alt="The company logo: a minimal earth icon." class="w-20 h-20 mt-10 mb-8 md:w-24 md:h-24">
+                <p class="text-sm tracking-wider text-gray-400 uppercase md:text-base">Lightning fast experience</p>
             </div>
+            <img src="img/white-arrow.png" class="absolute w-5 bottom-10 sm:hidden animate-bounce">
         </div>
     </section>
 
